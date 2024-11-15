@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="gameOverModal" class="game-over-modal">
+    <div class="game-over-content">
+        <h2>GAME OVER</h2>
+        <p>High Score: <span id="highScore">0</span></p>
+    </div>
+</div>
+<div class="game-container">
+    <h1>Simon Says</h1>
+    <p>Click on the cells in the correct order and finish a sequence to score points.</p>
+    <div class="score">Score: <span id="score">0</span></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+        <button id="startButton" class="button">Start Game</button>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
