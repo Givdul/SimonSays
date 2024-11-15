@@ -4,7 +4,7 @@ This project was created for a mini hackathon with the challenge of building som
 
 **Concept:**
 
-This is a recreation of the classic memory game "Simon Says" with a focus on simplicity and clean code. 
+This is a recreation of the classic memory game "Simon Says". 
 
 **Gameplay:**
 
